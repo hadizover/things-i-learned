@@ -66,19 +66,48 @@ p {
     text-align: left;               
 }
 .site-links {
-    color: #228B22;          /* Forest green */
-    text-decoration: underline; /* Underline the link */
+    color: #228B22;          
+    text-decoration: underline; 
     font-weight: bold;
     transition: color 0.2s;
 }
 .site-links:hover {
-    color: #145214;          /* Darker green on hover */
-    text-decoration: none;   /* Remove underline on hover */
+    color: #145214;          
+    text-decoration: none;   
 }
 .site-links:visited {
-    color: #161452;          /* Darker green for visited links */
+    color: #161452;          
 }
 .site-links:active {
-    color: rgb(0, 234, 255);
-    background: rgb(0, 255, 4);
+    color: rgb(0, 169, 87);
+    background: rgba(0, 255, 4, 0.077);
+   font-weight: bolder;
+}
+/*page 2 button*/
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 40px 0; /* pushes button down the page */
+}
+
+.big-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #2cb82c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.big-button:hover, .big-button:focus {
+    background-color: #628f02f9;
+    transform: scale(1.01);
+    
 }
