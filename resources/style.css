@@ -75,3 +75,10 @@ p {
     color: #145214;          /* Darker green on hover */
     text-decoration: none;   /* Remove underline on hover */
 }
+.site-links:visited {
+    color: #161452;          /* Darker green for visited links */
+}
+.site-links:active {
+    color: rgb(0, 234, 255);
+    background: rgb(0, 255, 4);
+}
