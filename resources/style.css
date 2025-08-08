@@ -91,23 +91,22 @@ p {
     margin: 60px 0 40px 0; /* pushes button down the page */
 }
 
-.big-button {
+.page-button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 1.5em;
     background-color: #2cb82c;
     color: #fff;
     border: none;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.322);
     transition: background 0.2s, transform 0.2s;
     cursor: pointer;
 }
 
-.big-button:hover, .big-button:focus {
-    background-color: #628f02f9;
-    transform: scale(1.01);
-    
+.page-button:hover, .big-button:focus {
+    background-color: #fafafaf9;
+    transform: scale(1.05);
+    color: #2cb82c;   
 }
