@@ -54,7 +54,7 @@ th {
     margin-top: 0;
 }
 p {
-    background-color: #f6fff6;      
+    background-color: #e6e6e6;      
     color: #000000;                 
     padding: 16px 24px;             
     border-radius: 8px;            
@@ -76,7 +76,7 @@ p {
     text-decoration: none;   
 }
 .site-links:visited {
-    color: #161452;          
+    color: #524fa1;          
 }
 .site-links:active {
     color: rgb(0, 169, 87);
@@ -85,10 +85,11 @@ p {
 }
 /*page 2 button*/
 .center-btn {
+   width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 60px 0 40px 0; /* pushes button down the page */
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 
 .page-button {
@@ -100,7 +101,7 @@ p {
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.322);
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.652);
     transition: background 0.2s, transform 0.2s;
     cursor: pointer;
 }
