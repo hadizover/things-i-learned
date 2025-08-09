@@ -101,7 +101,7 @@ p {
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0px 4px rgba(0, 0, 0, 0.652);
+    box-shadow: 0px 4px rgba(4, 57, 12, 0.903);
     transition: background 0.2s, transform 0.2s;
     cursor: pointer;
 }
@@ -110,4 +110,21 @@ p {
     background-color: #fafafaf9;
     transform: scale(1.05);
     color: #2cb82c;   
+}
+/* bread crumb*/
+.breadcrumb > li {
+display: inline;
+}
+
+.breadcrumb li+li::before {
+	padding: 10px;
+  content: "/";
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+ color: red;
 }
